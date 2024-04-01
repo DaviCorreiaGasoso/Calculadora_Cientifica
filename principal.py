@@ -1,9 +1,9 @@
-import pi
-import operações
+from pi import Pi
+from operacoes import Operacoes
 import cosseno
-import ceno
+import seno
 import raizes
-import Tangente
+import tangente
     
 print("Bem vindo à calculadora cientifica!")
 print("1. Raiz quadrada")

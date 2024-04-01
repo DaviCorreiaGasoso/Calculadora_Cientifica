@@ -7,4 +7,4 @@ angulo_radiano = math.radians(angulo_grau)
 
 tangente_angulo= math.tan(angulo_radiano)
 
-print("o cosseno de", angulo_grau,  "graus é: ", tangente_angulo)
+print("O Cosseno de ", angulo_grau,  " graus é: ", tangente_angulo)
