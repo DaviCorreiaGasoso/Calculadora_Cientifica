@@ -1,18 +1,17 @@
 import math
 
 class Raiz_Quadrada:
-    def __init__ (self, radicando):
-        self.radicando = radicando
-
     def calculo_raiz (self):
+        radicando = float(input('Digite o radicando: '))
         resultado = math.sqrt(self.radicando)
-        print('O resultado da operação é {:.2f}'.format(resultado))
+    
+        print(f'√{radicando} = {resultado}')
 
-class Raizes:
-    def __init__(self, rad, indice):
-        self.rad = rad
-        self.indice = indice
-      
-    def calculo_raizes(self):
-        valor_final = pow(self.rad, (1/self.indice))
-        print('O valor da operação é {:.2f}'.format(valor_final))
+class Raizes: 
+    def calculo_raizes():
+        rad = float(input('Digite o radicando: '))
+        indice = float(input('Digite o índice: '))
+        valor_final = pow(rad, (1/indice))
+
+        print(f'{indice}√{rad} = {valor_final}')
+        
